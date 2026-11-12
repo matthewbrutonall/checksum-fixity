@@ -1,5 +1,7 @@
 # Checksum / Fixity skill
 
+![Digital files paired with matching checksum patterns](assets/checksum-fixity.png)
+
 A local agent skill for creating and checking file checksums.
 
 It can:
