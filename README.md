@@ -32,7 +32,7 @@ If a checksum differs, investigate the affected file and the expected value. The
 Copy and paste this into an agent that can install skills on your computer:
 
 ```text
-Install the Checksum / Fixity skill from https://github.com/matthewbrutonall/checksum-fixity using your agent's supported skill installation method. Keep `SKILL.md` and the bundled `scripts` directory together. Check that Python is available, confirm you can find and use the skill, and tell me how to invoke it. Do not hash or inspect my files yet.
+Install the Checksum / Fixity skill from https://github.com/matthewbrutonall/checksum-fixity using your agent's supported skill installation method. Keep `SKILL.md` and the bundled `scripts` directory together. Check that Python 3.10 or later is available, confirm you can find and use the skill, and tell me how to invoke it. Do not hash or inspect my files yet.
 ```
 
 Once installed, you can ask your agent, for example:
@@ -45,7 +45,7 @@ Give your agent the actual file and manifest paths for your work. The skill oper
 
 ## Run the bundled helper yourself
 
-You can also use the helper directly without installing the skill into an agent. It uses Python's standard library:
+You can also use the helper directly without installing the skill into an agent. It needs Python 3.10 or later and uses its standard library:
 
 ```bash
 git clone https://github.com/matthewbrutonall/checksum-fixity.git
